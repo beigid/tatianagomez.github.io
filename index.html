@@ -3,12 +3,12 @@
 <title>Tatiana Gomez</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
+.tg-row-padding img {margin-bottom: 12px}
 .bgimg {
     background-position: 80% 50%;
     background-repeat: no-repeat;
@@ -19,59 +19,68 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </style>
 <body>
 
+  <div class="spinner-wrapper">
+  <div class="sk-folding-cube">
+  <div class="sk-cube1 sk-cube"></div>
+  <div class="sk-cube2 sk-cube"></div>
+  <div class="sk-cube4 sk-cube"></div>
+  <div class="sk-cube3 sk-cube"></div>
+</div>
+    </div>
+
 <!-- Sidebar with image -->
-<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+<nav class="tg-sidebar tg-hide-medium tg-hide-small" style="width:40%">
   <div class="bgimg"></div>
 </nav>
 
 <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
-<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
-  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+<nav class="tg-sidebar tg-black tg-animate-right tg-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="tg-button tg-black tg-xxxlarge tg-display-topright" style="padding:0 12px;">
     <i class="fa fa-remove"></i>
   </a>
-  <div class="w3-bar-block w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  <div class="tg-bar-block tg-center">
+    <a href="#" class="tg-bar-item tg-button tg-text-grey tg-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="tg-bar-item tg-button tg-text-grey tg-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="tg-bar-item tg-button tg-text-grey tg-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="tg-bar-item tg-button tg-text-grey tg-hover-black" onclick="closeNav()">Contact</a>
   </div>
 </nav>
 
 <!-- Page Content -->
-<div class="w3-main w3-padding-large" style="margin-left:40%">
+<div class="tg-main tg-padding-large" style="margin-left:40%">
 
   <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  <span class="tg-button tg-top tg-white tg-xxlarge tg-text-grey tg-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
   <!-- Header -->
-  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
-    <h1 class="w3-jumbo"><b>Tatiana Gomez</b></h1>
-    <p>Photographer and Web Designer.</p>
-    <img src="https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
-    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+  <header class="tg-container tg-center" style="padding:128px 16px" id="home">
+    <h1 class="tg-jumbo"><b>Tatiana Gomez</b></h1>
+    <p>Film. Photographer. Editor.</p>
+    <img src="https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w" class="tg-image tg-hide-large tg-hide-small tg-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w" class="tg-image tg-hide-large tg-hide-medium tg-round" width="1000" height="1333">
+    <button class="tg-button tg-light-grey tg-padding-large tg-margin-top">
       <i class="fa fa-download"></i> Download Resume
     </button>
   </header>
 
   <!-- Portfolio Section -->
-  <div class="w3-padding-32 w3-content" id="portfolio">
-    <h2 class="w3-text-grey">My Portfolio</h2>
-    <hr class="w3-opacity">
+  <div class="tg-padding-32 tg-content" id="portfolio">
+    <h2 class="tg-text-grey">My Portfolio</h2>
+    <hr class="tg-opacity">
 
     <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
+    <div class="tg-row-padding" style="margin:0 -16px">
+      <div class="tg-half">
+        <img src="/tgimages/wedding.jpg" style="width:100%">
+        <img src="/tgimages/rocks.jpg" style="width:100%">
+        <img src="/tgimages/sailboat.jpg" style="width:100%">
       </div>
 
-      <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
+      <div class="tg-half">
+        <img src="/tgimages/underwater.jpg" style="width:100%">
+        <img src="/tgimages/chef.jpg" style="width:100%">
+        <img src="/tgimages/wedding.jpg" style="width:100%">
+        <img src="/tgimages/p6.jpg" style="width:100%">
       </div>
     <!-- End photo grid -->
     </div>
@@ -79,47 +88,47 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+  <div class="tg-content tg-justify tg-text-grey tg-padding-32" id="about">
     <h2>About</h2>
-    <hr class="w3-opacity">
+    <hr class="tg-opacity">
     <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
-    <h3 class="w3-padding-16">My Skills</h3>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    <h3 class="tg-padding-16">My Skills</h3>
+    <p class="tg-wide">Photography</p>
+    <div class="tg-light-grey">
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:95%">95%</div>
     </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    <p class="tg-wide">Web Design</p>
+    <div class="tg-light-grey">
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:85%">85%</div>
     </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-light-grey">
-      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    <p class="tg-wide">Photoshop</p>
+    <div class="tg-light-grey">
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:80%">80%</div>
     </div><br>
 
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">14+</span><br>
+    <div class="tg-row tg-center tg-dark-grey tg-padding-16 tg-section">
+      <div class="tg-quarter tg-section">
+        <span class="tg-xlarge">14+</span><br>
         Partners
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
+      <div class="tg-quarter tg-section">
+        <span class="tg-xlarge">55+</span><br>
         Projects Done
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
+      <div class="tg-quarter tg-section">
+        <span class="tg-xlarge">89+</span><br>
         Happy Clients
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
+      <div class="tg-quarter tg-section">
+        <span class="tg-xlarge">150+</span><br>
         Meetings
       </div>
     </div>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <button class="tg-button tg-light-grey tg-padding-large tg-section">
       <i class="fa fa-download"></i> Download Resume
     </button>
 
@@ -129,23 +138,23 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- End About Section -->
   </div>
   <!-- Contact Section -->
-  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+  <div class="tg-padding-32 tg-content tg-text-grey" id="contact" style="margin-bottom:64px">
     <h2>Contact Me</h2>
-    <hr class="w3-opacity">
+    <hr class="tg-opacity">
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Seattle, US</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <div class="tg-section">
+      <p><i class="fa fa-map-marker fa-fw tg-xxlarge tg-margin-right"></i> Seattle, US</p>
+      <p><i class="fa fa-envelope fa-fw tg-xxlarge tg-margin-right"> </i> Email: mail@mail.com</p>
     </div>
     
     <p>Lets get in touch. Send me a message:</p>
     <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="tg-input tg-padding-16 tg-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="tg-input tg-padding-16 tg-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="tg-input tg-padding-16 tg-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="tg-input tg-padding-16 tg-border" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+        <button class="tg-button tg-light-grey tg-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
@@ -154,13 +163,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>  
   
   <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <footer class="tg-container tg-padding-64 tg-light-grey tg-center tg-opacity tg-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official tg-hover-opacity"></i>
+    <i class="fa fa-instagram tg-hover-opacity"></i>
+    <i class="fa fa-snapchat tg-hover-opacity"></i>
+    <i class="fa fa-pinterest-p tg-hover-opacity"></i>
+    <i class="fa fa-twitter tg-hover-opacity"></i>
+    <i class="fa fa-linkedin tg-hover-opacity"></i>
   <!-- End footer -->
   </footer>
   
@@ -180,11 +189,19 @@ function closeNav() {
     document.getElementById("mySidebar").style.display = "none";
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+//Preloader
+$(window).on("load", function() {
+preloaderFadeOutTime = 1200;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+});
+</script>
 </body>
 </html>
