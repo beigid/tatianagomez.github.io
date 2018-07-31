@@ -14,11 +14,13 @@
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .tg-row-padding img {margin-bottom: 12px}
 .bgimg {
-    background-position: 30% 50%;
+    background-position-x: 30%;
+    background-position-y: 70px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('Tatiana_Headshot.png');
     min-height: 100%;
+    transform: scale(1.09);
 }
   
   
@@ -35,7 +37,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div>
 
 <!-- Sidebar with image -->
-<nav class="tg-sidebar tg-hide-medium tg-hide-small" style="width:40%">
+<nav class="tg-sidebar tg-hide-medium tg-hide-small" style="width:40%; overflow:hidden;">
   <div class="bgimg"></div>
 </nav>
 
@@ -59,9 +61,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <span class="tg-button tg-top tg-white tg-xxlarge tg-text-grey tg-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
   <!-- Header -->
-  <header class="tg-container tg-center" style="padding:128px 20px" id="home">
-    <h1 class="tg-jumbo"><b>Tatiana Gomez</b></h1>
-    <p>Video Editor. Photographer. Designer.</p>
+  <header class="tg-container tg-center" style="padding-top: 120px; padding-bottom: 20px;" id="home">
+    <h1 class="tg-jumbo" style="1.5em;"><b>Tatiana Gomez</b></h1>
+    <p style="font-size:1.8em;">Video Editor. Photographer. Designer.</p>
     <img src="https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w" class="tg-image tg-hide-large tg-hide-small tg-round" style="display:block;width:60%;margin:auto;">
     <img src="https://static1.squarespace.com/static/55396962e4b053ce148cb1e1/t/57210fcab6aa60cca01f49fb/1461784525042/rolleiflex-brooklyn-film-camera.jpg?format=1500w" class="tg-image tg-hide-large tg-hide-medium tg-round" width="1000" height="1333">
 <!--     <a href="Gomez.Tatiana.Resume.pdf" target="_blank" title="Tatiana Gomez ">
@@ -73,7 +75,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   <!-- Portfolio Section -->
   <div class="tg-padding-32 tg-content" id="portfolio">
-    <h2 class="tg-text-grey">My Portfolio</h2>
+    <h2 class="tg-text-grey">Portfolio</h2>
     <hr class="tg-opacity">
 
     
@@ -142,25 +144,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <p>I have worked as a production assistant and intern at KCTS 9, the Seattle branch of PBS. Under their digital marketing team, I've helped produce proof of performance videos for major donor events, graphics for promotional spots for channel 9 and Spark TV. 
     </p>
-    <h3 class="tg-padding-16">My Skills</h3>
+    <h3 class="tg-padding-16" style="padding-top:40px !important;">My Skills</h3>
     <p class="tg-wide">Adobe Creative Cloud Video Programs <br>(Premiere Pro, After Effects, Illustrator, Media Encoder)</p>
     <div class="tg-light-grey">
-      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:95%">95%</div>
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:95%; height:30px;"></div>
     </div>
     <br>
     <p class="tg-wide">Adobe Creative Cloud Photography Programs <br> (Photoshop, Lightroom, InDesign) </p>
     <div class="tg-light-grey">
-      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:90%">90%</div>
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:90%; height:30px;"></div>
     </div>
    <br>
     <p class="tg-wide">Microsoft Office</p>
     <div class="tg-light-grey">
-      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:100%">100%</div>
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:100%; height:30px;"></div>
     </div>
     <br>
        <p class="tg-wide">HTML/CSS</p>
     <div class="tg-light-grey">
-      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:75%">75%</div>
+      <div class="tg-container tg-center tg-padding-small tg-dark-grey" style="width:75%; height:30px";></div>
     </div><br>
 
 <!--     <div class="tg-row tg-center tg-dark-grey tg-padding-16 tg-section">
@@ -199,10 +201,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr class="tg-opacity">
 
     <div class="tg-section">
-      <p><i class="fa fa-map-marker fa-fw tg-xxlarge tg-margin-right"></i> Seattle, WA</p>
+<!--       <p><i class="fa fa-map-marker fa-fw tg-xxlarge tg-margin-right"></i> Seattle, WA</p> -->
+       <p><i class="fa fa-envelope fa-fw tg-xxlarge tg-margin-right"> </i> tgomez.film@gmail.com</p>
       <a href="https://www.linkedin.com/in/tatiana-gomez-b64400159/" title="Tatiana Gomez LinkedIn" target="_blank" style="text-decoration:none;">
         <p><i class="fa fa-linkedin fa-fw tg-xxlarge tg-margin-right"></i> Connect with Me! </a>
-      <p><i class="fa fa-envelope fa-fw tg-xxlarge tg-margin-right"> </i> tgomez.film@gmail.com</p>
+     
     </div>
     
 
